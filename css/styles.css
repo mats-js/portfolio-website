@@ -4,6 +4,8 @@
     --primary-color: #357b70;
     --secondary-color: #05676e;
     --activate-color: #489c79;
+    --span-background-color: #000;
+    --span-color: #ffa500;
     --border-bottom-color: rgba(0, 0, 0, 0.3);
     --sun-color-1: #edc655;
     --sun-color-2: #fcffad;
@@ -100,6 +102,13 @@ a:active {
 
 #about-info, #work-header, #contact-info {
     text-align: center;
+}
+
+span {
+    background-color: var(--span-background-color);
+    color: var(--span-color);
+    font-size: 12px;
+    padding: 3px;
 }
 
 table {
