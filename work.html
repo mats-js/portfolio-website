@@ -1,88 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
-        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="css/style.production.css" />
-        <title>Mats Silberg - Portfolio</title>
-    </head>
-    <body>
-        <header class="page-header">
-            <img src="img/mats-silberg-logo.png" class="page-header__item" alt="Personal logo of Mats Silberg, a text logo in uppercase letters that consists of my name" />
-            <nav class="page-header__item">
-                <ul role="menubar" class="navigation-list">
-                    <li role="presentation">
-                        <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
-                    </li>
-                    <li role="presentation">
-                        <a href="about.html" role="menuitem" class="navigation-list__item">About Me</a>
-                    </li>
-                    <li role="presentation">
-                        <a href="work.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Work</a>
-                    </li>
-                    <li role="presentation">
-                        <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <section>
-            <h1 id="work-header">Work</h1>
-            <div class="project-list">
-                <div class="project-list__item">
-                    <h2>Project 1</h2>
-                    <p>
-                        This is the description of the project. Within this project, I was responsible for ... , technologies used are ... .
-                    </p>
-                    <a href="#">See project on GitHub</a>
-                </div>
-                <div class="project-list__item">
-                    <h2>Project 2</h2>
-                    <p>
-                        This is the description of the project. Within this project, I was responsible for ... , technologies used are ... .
-                    </p>
-                    <a href="#">See project on GitHub</a>
-                </div>
-                <div class="project-list__item">
-                    <h2>Project 3</h2>
-                    <p>
-                        This is the description of the project. Within this project, I was responsible for ... , technologies used are ... .
-                    </p>
-                    <a href="#">See project on GitHub</a>
-                </div>
-                <div class="project-list__item">
-                    <h2>Project 4</h2>
-                    <p>
-                        This is the description of the project. Within this project, I was responsible for ... , technologies used are ... .
-                    </p>
-                    <a href="#">See project on GitHub</a>
-                </div>
-                <div class="project-list__item">
-                    <h2>Project 5</h2>
-                    <p>
-                        This is the description of the project. Within this project, I was responsible for ... , technologies used are ... .
-                    </p>
-                    <a href="#">See project on GitHub</a>
-                </div>
-                <div class="project-list__item">
-                    <h2>Project 6</h2>
-                    <p>
-                        This is the description of the project. Within this project, I was responsible for ... , technologies used are ... .
-                    </p>
-                    <a href="#">See project on GitHub</a>
-                </div>
-            </div>
-         </section>
-        <footer class="page-footer">
-            <p>Find me on</p>
-            <div class="social-media">
-                <a href="https://github.com/mats-js" target="_blank"><img src="img/github_icon.svg" class="social-media__icons" alt="github icon"></a>
-                <a href="https://twitter.com/Matsjs4" target="_blank"><img src="img/twitter_icon.svg" class="social-media__icons" alt="twitter icon"></a>
-                <a href="https://linkedin.com/in/mats-silberg-cfa" target="_blank"><img src="img/linkedin_icon.svg" class="social-media__icons" alt="linkedin icon"></a>
-            </div>
-        </footer>
-    </body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="img/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.production.css" />
+    <title>Mats Silberg - Portfolio</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <img
+        src="img/mats-silberg-logo.png"
+        class="page-header__item"
+        alt="Personal logo of Mats Silberg, a text logo in uppercase letters that consists of my name"
+      />
+      <nav class="page-header__item">
+        <ul role="menubar" class="navigation-list">
+          <li role="presentation">
+            <a href="index.html" role="menuitem" class="navigation-list__item"
+              >Home</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="about.html" role="menuitem" class="navigation-list__item"
+              >About Me</a
+            >
+          </li>
+          <li role="presentation">
+            <a
+              href="work.html"
+              role="menuitem"
+              class="navigation-list__item navigation-list__item--active"
+              >Work</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="contact.html" role="menuitem" class="navigation-list__item"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <h1 id="work-header">Work</h1>
+      <div class="project-list">
+        <div class="project-list__item">
+          <img
+            src="img/screenshot_myflix.png"
+            class="project-list__screenshot"
+            alt="Screenshot of a movie database project, depicting several movies with images and descriptions"
+          />
+          <h2>myFlix Client</h2>
+          <p>
+            The client-side for an application called myFlix based on existing
+            server-side code (REST API and database). After the user creates an
+            account, the app provides her with information about selected
+            movies, as well as the respective directors and genres. The user can
+            add/remove favorite movies and manage her account data.
+          </p>
+          <p>
+            Technologies used: JavaScript, React, React Bootstrap,React Redux,
+            Parcel.
+          </p>
+          <a
+            href="https://mats-js-myflixdb.netlify.app"
+            class="button button-work"
+            target="_blank"
+            >See project live</a
+          >
+          <a
+            href="https://github.com/mats-js/myFlix-client"
+            class="button button-work"
+            target="_blank"
+            >See project on GitHub</a
+          >
+        </div>
+        <div class="project-list__item">
+          <img
+            src="img/screenshot_myflix_db.png"
+            class="project-list__screenshot"
+            alt="Generic screenshot of a database logo"
+          />
+          <h2>myFlix API</h2>
+          <p>
+            The server-side component of the myFlix Client. The web application
+            provides users with access to information about different movies,
+            directors, and genres. Users are able to sign up, update their
+            personal information, and create a list of their favorite movies.
+          </p>
+          <p>
+            Technologies used: JavaScript, Node.js, Express, MongoDB, Mongoose.
+          </p>
+          <a
+            href="https://mats-js-myflixdb.herokuapp.com/"
+            class="button button-work"
+            target="_blank"
+            >See project live</a
+          >
+          <a
+            href="https://github.com/mats-js/movie_api"
+            class="button button-work"
+            target="_blank"
+            >See project on GitHub</a
+          >
+        </div>
+        <div class="project-list__item">
+          <img
+            src="img/screenshot_meet_app.png"
+            class="project-list__screenshot"
+            alt="Screenshot of a meet app project, depicting a search bar to search for cities, as well as a pie chart and scatterplot"
+          />
+          <h2>Meet App</h2>
+          <p>
+            A serverless, progressive web application (PWA) with React using
+            both test-driven (TDD) and behavior-driven development (BDD)
+            techniques. The application gives users access to developer meet-ups
+            worldwide, allows filtering by location and number of events, and
+            uses the Google Calendar API to fetch upcoming events.
+          </p>
+          <p>
+            Technologies used: JavaScript, React, Google Calendar API, AWS
+            lambda, Jest / Enzyme, Jest-Cucumber, Puppeteer, Recharts.
+          </p>
+          <a
+            href="https://mats-js.github.io/meet/"
+            class="button button-work"
+            target="_blank"
+            >See project live</a
+          >
+          <a
+            href="https://github.com/mats-js/meet"
+            class="button button-work"
+            target="_blank"
+            >See project on GitHub</a
+          >
+        </div>
+        <div class="project-list__item">
+          <img
+            src="img/screenshot_pokedex_app.png"
+            class="project-list__screenshot"
+            alt="Screenshot of a pokedex app project, depicting a list of pokemon that can be expanded to see further details"
+          />
+          <h2>Pokédex App</h2>
+          <p>
+            A small Pokédex app that displays a list of Pokémon. Key features
+            include loading data from an external source, the Pokémon API
+            (https://pokeapi.co/), viewing a list of Pokémon, and viewing
+            details for a specific Pokémon in a modal.
+          </p>
+          <p>
+            Technologies used: HTML, CSS, JavaScript, Bootstrap/jQuery,
+            ESLint/Prettier.
+          </p>
+          <a
+            href="https://mats-js.github.io/pokedex-app/"
+            class="button button-work"
+            target="_blank"
+            >See project live</a
+          >
+          <a
+            href="https://github.com/mats-js/pokedex-app"
+            class="button button-work"
+            target="_blank"
+            >See project on GitHub</a
+          >
+        </div>
+      </div>
+    </section>
+    <footer class="page-footer">
+      <p>Find me on</p>
+      <div class="social-media">
+        <a href="https://github.com/mats-js" target="_blank"
+          ><img
+            src="img/github_icon.svg"
+            class="social-media__icons"
+            alt="github icon"
+        /></a>
+        <a href="https://twitter.com/Matsjs4" target="_blank"
+          ><img
+            src="img/twitter_icon.svg"
+            class="social-media__icons"
+            alt="twitter icon"
+        /></a>
+        <a href="https://linkedin.com/in/mats-silberg-cfa" target="_blank"
+          ><img
+            src="img/linkedin_icon.svg"
+            class="social-media__icons"
+            alt="linkedin icon"
+        /></a>
+      </div>
+    </footer>
+  </body>
 </html>

@@ -227,6 +227,11 @@ a.button:focus {
         margin: 0;
         padding: 20px;
     }
+
+    .project-list__screenshot {
+        width: 100%;
+        margin-bottom: 15px;
+    }
 }
 
 .page-footer {
