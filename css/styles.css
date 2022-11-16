@@ -10,7 +10,7 @@
     --sun-color-1: #edc655;
     --sun-color-2: #fcffad;
     --sun-color-3: #f76414;
-    --project-background-color: lightgray;
+    --project-background-color: rgba(240, 239, 239, 0.682);
 
     /* other properties */
     --font-weight-h: 700;
@@ -112,6 +112,9 @@ a:active {
 #work-header,
 #contact-info {
     text-align: center;
+    margin: auto;
+    padding: 0 30px;
+    max-width: 700px;
 }
 
 span {
