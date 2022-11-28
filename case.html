@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="img/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.production.css" />
+    <title>myFlix App Case Study</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <nav class="page-header__item"></nav>
+      <nav class="page-header__item">
+        <ul role="menubar" class="navigation-list">
+          <li role="presentation">
+            <a
+              href="work.html"
+              role="menuitem"
+              class="navigation-list__item case-study"
+              >< Go back to portfolio projects</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div id="case-study">
+      <h1>myFlix App Case Study</h1>
+      <div class="case-study-intro">
+        <h2>Overview</h2>
+        <p>
+          myFlix is a movies database web application based on the MERN stack.
+          After the user creates an account, the app provides her with
+          information about selected movies, as well as the respective directors
+          and genres. The user can add/remove favorite movies and manage her
+          account data.
+        </p>
+        <h2>Purpose and Context</h2>
+        <p>
+          The application was a mandatory project to be completed as part of the
+          CareerFoundry Full-Stack Web Development curriculum.
+        </p>
+        <h2>Objective</h2>
+        <p>
+          The objective of the project was to gain a deeper understanding of
+          both front- and backend development with JavaScript-based
+          technologies, as well as bringing the front- and backend together to
+          create a working web application.
+        </p>
+        <img
+          src="img/screenshot_myflix.png"
+          class="case-study-image"
+          alt="Screenshot of a movie database project, depicting several movies with images and descriptions"
+        /><br />
+        <h2>Duration</h2>
+        <p>2.5 weeks for the server-side, 1.5 weeks for the client-side.</p>
+        <h2>Credits</h2>
+        <p>
+          Role: Lead Developer<br />
+          Tutor: Andrew Magdy Gad<br />
+          Mentor: Renish B.
+        </p>
+        <h2>Tools, Skills, Methodologies</h2>
+        <p>
+          <i>For the server-side:</i> Node.js, Express, MongoDB/Shell, Mongoose
+          for database models, Postman for API testing, Passport for HTTP
+          authentication and JWT token, Bcrypt for password hashing,
+          Express-Validator for input validation.<br />
+          <i>For the client-side:</i> React, React Bootstrap, React-Redux,
+          Parcel.
+        </p>
+      </div>
+      <div class="case-study-approach">
+        <h2>Approach and Process</h2>
+        <h3>1. Server-Side Implementation</h3>
+        <p>
+          For the server-side, I created a RESTful API based on Node.js and
+          Express that accesses a noSQL database (MongoDB) via common HTTP
+          methods. The database uses CRUD operations for manipulation and
+          provides data in JSON format.
+        </p>
+        <a href="https://mats-js-myflixdb.herokuapp.com/documentation.html"
+          >> View documentation</a
+        >
+        <p></p>
+        <img
+          src="img/screenshot_mongodb.png"
+          class="case-study-image"
+          alt="Screenshot of a mongo db database"
+        /><br /><br />
+        <img
+          src="img/screenshot_postman.png"
+          class="case-study-image"
+          alt="Screenshot of API endpoint testing with the application postman"
+        /><br />
+        <h3>2. Client-Side Implementation</h3>
+        <p>
+          After the server-side was up-and-running, I created a
+          single-page-application with React and React-Redux based on a project
+          brief that needed to include the following views:
+        </p>
+        <ul>
+          <li>
+            Main view: Returns a list of ALL movies to the user (each listed
+            item with an image, title, and description), allows for sorting and
+            filtering, includes the ability to select a movie for more details.
+          </li>
+          <li>
+            Single movie view: Returns data (description, genre, director,
+            image) about a single movie to the user and allows users to add a
+            movie to their list of favorites.
+          </li>
+        </ul>
+        <img
+          src="img/screenshot_myflix_movie_view.png"
+          class="case-study-image"
+          alt="Screenshot of the web application myflix, depicting a movie view with information about a single movie"
+        />
+        <ul>
+          <li>
+            Login view: Allows users to log in with a username and password.
+          </li>
+          <li>
+            Registration view: Allows new users to register (username, password,
+            email, birthday).
+          </li>
+          <li>
+            Genre view: Returns data about a genre, with a name and description
+            and displays example movies.
+          </li>
+          <li>
+            Director view: Returns data about a director (name, bio, birth year,
+            death year) and displays example movies.
+          </li>
+        </ul>
+      </div>
+      <div class="case-study-challenges">
+        <h2>Challenges and Learnings</h2>
+        <p>
+          Given that this was my first (larger) project based on React, it took
+          me a bit of time to get accustomed to React's structure and in
+          particular the use of state across components. Setting up the backend
+          first definitely helped me tackle this project, as trying to implement
+          both front- and backend simultaneously would have led to increased
+          complexity while trying to learn a new JavaScript framework on the
+          way.<br />
+          Going forward, I want to change some of the more complex state
+          management of the app (regarding movie favorites) towards a simple API
+          fetch in order to minimize the risk of page malfunctioning in certain
+          cases (e.g. page reloads, restricted internet connection). In
+          addition, I'm planning to include a toggle button to add/remove
+          favorites in the movie view, which I learned to implement while
+          recreating this project in Angular.
+        </p>
+      </div>
+      <br />
+    </div>
+    <footer class="page-footer">
+      <p>Find me on</p>
+      <div class="social-media">
+        <a href="https://github.com/mats-js" target="_blank"
+          ><img
+            src="img/github_icon.svg"
+            class="social-media__icons"
+            alt="github icon"
+        /></a>
+        <a href="https://twitter.com/Matsjs4" target="_blank"
+          ><img
+            src="img/twitter_icon.svg"
+            class="social-media__icons"
+            alt="twitter icon"
+        /></a>
+        <a href="https://linkedin.com/in/mats-silberg-cfa" target="_blank"
+          ><img
+            src="img/linkedin_icon.svg"
+            class="social-media__icons"
+            alt="linkedin icon"
+        /></a>
+      </div>
+    </footer>
+  </body>
+</html>

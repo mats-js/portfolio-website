@@ -123,6 +123,25 @@ a:active {
     max-width: 700px;
 }
 
+#case-study {
+    margin: auto;
+    margin-top: 100px;
+    padding: 0 30px;
+    max-width: 80%;
+}
+
+#case-study h1 {
+    text-align: center;
+}
+
+.case-study-image {
+    display: block;
+    margin: auto;
+    height: auto;
+    max-width: 600px;
+    box-shadow: 5px 5px 15px 5px rgb(52, 58, 64);
+}
+
 span {
     background-color: var(--span-background-color);
     color: var(--span-color);
@@ -298,7 +317,19 @@ a.button:focus {
         grid-row: auto / auto;
     }
 
+    .case-study-image {
+        max-width: 100%;
+    }
+
     h1 {
         font-size: 22px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 16px;
     }
 }

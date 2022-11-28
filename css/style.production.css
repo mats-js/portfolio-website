@@ -58,15 +58,17 @@ a:active {
 }
 
 .page-header {
-    display: -webkit-box;
-    display: -ms-flexbox;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding: 15px;
     z-index: 99999999;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     background-color: #fff;
 }
@@ -123,6 +125,26 @@ a:active {
     margin: auto;
     padding: 0 30px;
     max-width: 700px;
+}
+
+#case-study {
+    margin: auto;
+    margin-top: 100px;
+    padding: 0 30px;
+    max-width: 80%;
+}
+
+#case-study h1 {
+    text-align: center;
+}
+
+.case-study-image {
+    display: block;
+    margin: auto;
+    height: auto;
+    max-width: 600px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgb(52, 58, 64);
+    box-shadow: 5px 5px 15px 5px rgb(52, 58, 64);
 }
 
 span {
@@ -356,7 +378,19 @@ a.button:focus {
         grid-row: auto / auto;
     }
 
+    .case-study-image {
+        max-width: 100%;
+    }
+
     h1 {
         font-size: 22px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 16px;
     }
 }
