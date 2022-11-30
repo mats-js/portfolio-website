@@ -1,11 +1,12 @@
 :root {
     /* colors */
     --background-color: #fff;
-    --primary-color: #357b70;
-    --secondary-color: #05676e;
-    --activate-color: #489c79;
+    --primary-color: #4747d4;
+    --secondary-color: #4747d4;
+    --activate-color: #4747d4;
+    --button-background-color: #6868FF;
     --span-background-color: #000;
-    --span-color: #ffa500;
+    --span-color: #eaeaea;
     --border-bottom-color: rgb(0 0 0 / 30%);
     --sun-color-1: #edc655;
     --sun-color-2: #fcffad;
@@ -157,7 +158,7 @@ a.button {
     border: none;
     display: inline-block;
     font-family: inherit;
-    background-color: var(--primary-color);
+    background-color: var(--button-background-color);
     color: var(--background-color);
     text-decoration: none;
     padding: 10px;
@@ -305,7 +306,7 @@ a.button:focus {
 
     .profile__portrait {
         width: 100vw;
-        padding: 0 80px;
+        padding: 0 130px;
     }
 
     .project-list {

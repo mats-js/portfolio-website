@@ -41,11 +41,11 @@ h3 {
 }
 
 a {
-    color: #357b70;
+    color: #4747d4;
 }
 
 a:visited {
-    color: #05676e;
+    color: #4747d4;
 }
 
 a:hover,
@@ -54,7 +54,7 @@ a:focus {
 }
 
 a:active {
-    color: #489c79;
+    color: #4747d4;
 }
 
 .page-header {
@@ -149,7 +149,7 @@ a:active {
 
 span {
     background-color: #000;
-    color: #ffa500;
+    color: #eaeaea;
     font-size: 12px;
     padding: 3px;
 }
@@ -162,7 +162,7 @@ a.button {
     border: none;
     display: inline-block;
     font-family: inherit;
-    background-color: #357b70;
+    background-color: #6868FF;
     color: #fff;
     text-decoration: none;
     padding: 10px;
@@ -366,7 +366,7 @@ a.button:focus {
 
     .profile__portrait {
         width: 100vw;
-        padding: 0 80px;
+        padding: 0 130px;
     }
 
     .project-list {
